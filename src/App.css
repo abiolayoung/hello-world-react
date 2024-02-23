@@ -1,0 +1,18 @@
+#head {
+  text-align: center;
+  color: blue;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: auto;
+  background: whitesmoke;
+  width: 90%;
+  border-radius: 1rem;
+  height: 10rem;
+  color: #000000;
+  font-weight: 500;
+  font-size: 25px;
+}
