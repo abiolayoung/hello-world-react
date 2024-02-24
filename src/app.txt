@@ -1,0 +1,5 @@
+REACT COMPONENTS
+* component can refer to other component in their output.
+* dont be afraid to split component into smaller component
+* elements that need keys should be unique non-random identifiers
+* method should be in camel case and be named for their function.

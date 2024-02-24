@@ -1,16 +1,29 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
-function App() {
+// creating a react component
+function Greetings() {
+  return <p>hello world, my name is abeeb abiola adeniyi from altschool africa</p>
+}
+
+function UserProfileCard (){
   return (
-    <div className="App">
-     <h1 id="head">Hello World!</h1>
-     <div class="flex">
-       <p>Working in the technology sector has always been my priority</p>
-       <p>Working in the aviation sector has always been my priority</p>
-     </div>
+    <div className="card">
+    <div className="card-name">Adeniyi Abiola</div>
+    <div>Abiola is a lovely and a tech enthusiast, schooling at altschool</div>
+    <img className="card-img"
+    src=""/>
     </div>
-  );
+  )
+}
+// root component
+function App() {
+  return <section className="main-page">
+    <Greetings/>
+    <UserProfileCard/>
+  </section>
+  
 }
 
 export default App;
