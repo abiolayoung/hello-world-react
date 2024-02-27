@@ -3,3 +3,6 @@ REACT COMPONENTS
 * dont be afraid to split component into smaller component
 * elements that need keys should be unique non-random identifiers
 * method should be in camel case and be named for their function.
+
+for a react components to work accordingly, the function has to be declared in pascal casing
+the curly braces is used when importing an object or array in any region of our project, other than tagging it with </>
