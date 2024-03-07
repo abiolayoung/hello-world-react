@@ -5,8 +5,8 @@ import Header from "./components/header.js";
 import UserProfileCard2 from "./components/user2.js";
 import ListItems from "./components/listItem.js";
 import dataItem from "./components/listComponent.js";
-import HandleClick from "./components/clickEvent.js";
 import Counter from './counter.js'
+import OnChange from "./onChange.jsx";
 
 // root component
 function App() {
@@ -20,8 +20,8 @@ function App() {
       <UserProfileCard2 />
       <ol>{ListItems}</ol>
       <div>{dataItem}</div>
-      <HandleClick/>
       <Counter/>
+      <OnChange/>
     </section>
   );
 }
