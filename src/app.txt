@@ -6,3 +6,14 @@ REACT COMPONENTS
 
 for a react components to work accordingly, the function has to be declared in pascal casing
 the curly braces is used when importing an object or array in any region of our project, other than tagging it with </>
+
+events in react
+Events in React are named using camelCase, rather than lowercase.
+With JSX you pass a function as the event handler, rather than a string.
+Example events are onClick, onChange, onSubmit.
+
+TYPES OF REACT Events
+click event- allows increment and decrement of counter(onClick)
+Change event- for example input fields (onChange)
+submit event - to submit a form (onSubmit)
+mouse event - for examle mouse over and mouse out (onMouseOver)
